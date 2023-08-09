@@ -1,0 +1,217 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=REM:wght@400;600&display=swap" rel="stylesheet">
+*{
+    margin: 0;
+    top: 0;
+    
+}
+
+   
+.my{
+    text-align: center;
+    height: 400px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    top: 0;
+    min-width: 100%;
+ 
+    
+}
+
+
+   
+    
+
+nav{
+
+    margin-top: 2.5rem;
+    display: flex;
+    /*define o tamanho dos lados dos elementos*/
+    grid-gap: 1.2rem;
+    justify-content: center;
+}
+
+.btn{
+    color:#f8f9fa;
+    padding: 15px 15px;
+    background-color: black;
+    border-radius: 10px ;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+body{
+    background-color:#fb5607;
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+    
+   
+   
+}
+
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#eaf4f4;
+    color: #f35b04;
+  
+
+}
+
+.habiliades{
+    text-align: center;
+    height: 50%;
+    position: relative;
+
+  
+}
+
+.jobs{
+    display: flex;
+    grid-gap: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f8f9fa;
+}
+
+
+
+.currilo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.currilo button{
+    color:#f8f9fa;
+    padding: 15px 15px;
+    background-color: black;
+    border-radius: 10px ;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.currilo:hover button{
+    background-color:#eaf4f4;
+    color: #f35b04;
+}
+
+
+img{
+    max-width: 100%;
+    height: 250px;
+    width: 300px;
+    border: 5px solid black;
+}
+
+img:hover{
+    transform: translate(-10px,-10px);
+    
+
+}
+
+.secao-2{
+    max-width: 100%;
+
+ 
+}
+
+.secao-2 h1{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1.2rem;
+    margin-top: 5%;
+    left: 0;
+    right: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  
+}
+.project img{
+    max-width: 100%;
+
+}
+
+
+.project-2 h1{
+    display: flex;
+    position: relative;
+    margin-top: -50%;
+    left: 575%;
+    
+
+}
+.project-3{
+    
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1.2rem;
+    margin-top: 5%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+   background-color: #14213d;
+   color: #fff;
+   display: flex;
+   left: 0;
+   right: 0;
+   height:90px;
+   margin-top: 1em;
+   padding: 10px;
+   bottom: 0;
+
+
+  
+    
+}
+.roda{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    grid-gap: 1.2em;
+    align-items: cente;
+}
+li { 
+    color: aliceblue;
+    list-style-type: none;
+    position: relative;
+    left: 450px; 
+}
+
+@media screen and (max-width:798px){
+
+    footer{
+        position: relative;
+        right: 0;
+        left: 0;
+       
+    }
+    footer .roda{
+        
+        position: relative;
+        right: 300px;
+    }
+   
+    
+}
+

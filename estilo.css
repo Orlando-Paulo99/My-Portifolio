@@ -198,7 +198,7 @@ li {
     left: 450px; 
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:798px){
 
     header{
         background-color: aqua;

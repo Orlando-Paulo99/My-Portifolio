@@ -211,17 +211,7 @@ li {
         right: 0;
         left: 0;
     }
-     .btn{
-         background-color: aqua;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-
-        position: relative;
-        right: 0;
-        left: 0;
-    }
-
+    
 
     footer{
         width: 100%;

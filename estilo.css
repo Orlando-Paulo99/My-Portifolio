@@ -203,10 +203,17 @@ li {
     header{
         background-color: aqua;
         width: 100%;
-        
+        position: relative;
+        right: 0;
+        left: 0;
     }
      .btn{
-        
+        color:#f8f9fa;
+        padding: 15px 15px;
+        background-color: black;
+        border-radius: 10px ;
+        cursor: pointer;
+        font-size: 25px;
     }
 
 

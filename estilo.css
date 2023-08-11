@@ -198,7 +198,7 @@ li {
     left: 450px; 
 }
 
-@media screen and (max-width:1600 px){
+@media screen and (max-width:360 px){
 
     header{
           
@@ -237,7 +237,7 @@ li {
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:720px){
 
     footer{
         

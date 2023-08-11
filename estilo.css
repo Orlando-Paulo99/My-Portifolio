@@ -237,4 +237,23 @@ li {
 }
 
 
+@media screen and (max-width:480px){
+
+    footer{
+        
+        width: 100%;
+    }
+
+    footer .roda{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 280px;
+
+    }
+}
+
+
+
 

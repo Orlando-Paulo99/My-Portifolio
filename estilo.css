@@ -202,9 +202,9 @@ li {
 
     header{
         background-color: aqua;
-       
+        width: 100%;
         position: relative;
-        right: 0;
+        
         left: 0;
     }
      .btn{

@@ -204,6 +204,9 @@ li {
         background-color: aqua;
         width: 100%;
     }
+     .btn{
+        font-size: 5px;
+    }
 
 
     footer{
@@ -221,6 +224,5 @@ li {
    
     
 }
-
 
 

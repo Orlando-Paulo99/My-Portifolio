@@ -209,8 +209,14 @@ li {
         
     }
 
-    nav{
-        
+    
+   .navbar{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+
     }
 
 

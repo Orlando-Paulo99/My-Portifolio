@@ -203,8 +203,12 @@ li {
     header{
         background-color: aqua;
         width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+
         position: relative;
-        
+        right: 0;
         left: 0;
     }
      .btn{

@@ -237,6 +237,57 @@ li {
 }
 
 
+@media screen and (max-width:360px){
+
+    header{
+       
+        width: 88%;
+        position: relative;
+        margin-top: 0px;
+        left: 0px;
+      
+
+    }
+    nav{
+        display: block;
+        max-width: 360px;
+        
+    }
+
+    .habiliades{
+        position: relative;
+        top:-40px;
+    }
+    .habiliades h3{
+        position: relative;
+        top: 45px;
+    }
+
+    body{
+     max-width: 100%;
+      
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+    }
+
+    .roda{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        right: 350px;
+    }
+
+    .habiliades{
+        display: block;
+        justify-content: center;
+    }
+}
+
+
 @media screen and (max-width:720px) {
 
     *{
@@ -272,7 +323,7 @@ li {
     }
 
     body{
-        width:100%;
+        width:100vw;
     }
     footer{
         text-align: center;
@@ -295,7 +346,4 @@ li {
     }
     
 }
-
-
-
 

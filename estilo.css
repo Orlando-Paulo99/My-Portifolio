@@ -319,9 +319,13 @@ li {
 
     }
     .habiliades{
-      margin-top: 60px;
+        
+        margin-top: 35px;
     }
 
+    .jobs{
+        margin-top: 20px;
+    }
     body{
         width:100vw;
     }

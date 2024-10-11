@@ -43,7 +43,7 @@ nav{
 }
 
 body{
-    background-color:#fb5607;
+    background-color:#e85d04;
     opacity: 0.9;
     padding: 0;
     margin: 0;
@@ -188,7 +188,7 @@ footer{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
-    grid-gap: 1.2em;
+    grid-gap: 1.2rem;
     align-items: cente;
 }
 li { 
@@ -198,156 +198,105 @@ li {
     left: 450px; 
 }
 
-@media screen and (max-width:360 px){
+/** media query*/
 
-    header{
-          
-        width: 100%;
-        position: relative;
-        right: 0;
-        left: 0;
+
+@media screen and (max-width:768px)  {
+     body{
+        background-color:#e85d04;
+        margin: 0px auto;
+
+     }
+
+    .links nav{
         
-    }
-
-    
-   .navbar{
         display: flex;
-        justify-content: center;
-        text-align: center;
-       s
-
-
+        justify-content: space-between;
+        grid-gap: 0.0rem;
     }
-
-
-    footer{
-        width: 100%;
-        position: relative;
-        right: 0;
-        left: 0;
-       
-    }
-    footer .roda{
+    .links button {
+        width: 89%;
         
-        position: relative;
-        right: 300px;
     }
-   
+
+
     
+     .jobs{
+        width: 100%;
+        background-color: #000;
+        border-style: groove;
+        position: relative;
+        top:-30px;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+     }
+     .jobs-1 .jobs-2 {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 2.2rem;
+     }
+     .project article{
+        width:60%;
+        position: relative;
+        display: flex;
+        text-align: center;
+        padding: 1rem ;
+        justify-content: center
+     }
+     .project-3 article{
+        width:60%;
+        position: relative;
+        display: flex;
+        text-align: center;
+        padding: 1rem ;
+        justify-content: center
+     }
+     footer{
+        width: 100%;
+
+     }
+     footer ul{
+        width: 50%;
+        justify-content: space-between;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+        right: 125px;
+     }
 }
 
-
-@media screen and (max-width:360px){
-
-    header{
-       
-        width: 88%;
-        position: relative;
-        margin-top: 0px;
-        left: 0px;
-      
-
-    }
-    nav{
-        display: block;
-        max-width: 360px;
-        
-    }
-
-    .habiliades{
-        position: relative;
-        top:-40px;
-    }
-    .habiliades h3{
-        position: relative;
-        top: 45px;
-    }
-
+@media screen and (max-width:481px) {
     body{
-     max-width: 100%;
-      
-    }
-
-    footer{
-        width: 100%;
-        display: flex;
-    }
-
-    .roda{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        right: 350px;
-    }
-
-    .habiliades{
-        display: block;
-        justify-content: center;
-    }
-}
-
-
-@media screen and (max-width:720px) {
-
-    *{
-        padding: 0;
         margin: 0;
-        box-sizing: border-box;
-    }
-
-    header{
-        text-align: center;
-        height: 400px;
-        position: relative;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:x-large;
-        top: 0;
-        max-width: 100%;
-    }
-    .navbar{
-        margin-top: 100px;
-    }
-
-    #myP{
-        margin-top: 40px;
-
-    }
-
-    header h5{
-              margin-top: 20px;
-
-    }
-    .habiliades{
-        
-        margin-top: 25px;
     }
 
     .jobs{
-        margin-top: 60px;
-    }
-    body{
-        width:100vw;
+        width: 99%;
+        background-color: #000;
+        margin: 0 ;
+        position: relative;
+        top:-30px;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
     }
     footer{
-        text-align: center;
-        
-        position: relative;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       
-        top: 0;
-        min-width: 100%;
-    
+        width: 99%;
     }
-
     footer .roda{
-        width: 50px;
-        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        text-align: center;
         justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
         position: relative;
-        right: 320px;
+        right: 350px;
     }
-    
 }
-

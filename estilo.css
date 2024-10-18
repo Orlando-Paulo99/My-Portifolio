@@ -18,6 +18,7 @@
     top: 30px;
     min-width: 100%;
     color: #fff;
+    
      
     
 }
@@ -47,21 +48,25 @@ body{
    
 }
 .porje{
-    text-align: center;
-    height: 400px;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:22px;
-    top: 110px;
-    min-width: 100%;
-    color: #fff;
-
+    width: 100%;               /* Ocupar toda a largura da tela */
+    max-width: 1200px;         /* Limitar a largura máxima para telas grandes */
+    margin: 0 auto;            /* Centralizar a seção em telas grandes */
+    
+    padding: 40px 20px;        /* Espaçamento interno */
+    text-align: center;        /* Centralizar o conteúdo */
+    min-height: 30px;  
+}
+.porje h1{
+    font-size: 36px;           /* Tamanho da fonte para desktops */
+    color: #fff;               /* Cor do texto */
+    margin: 0;
 }
 
 .all-Project {
     display: flex;
     justify-content: space-around;
     gap: 1px; 
+    margin-top: 150px;
     
  
 }
@@ -163,32 +168,45 @@ body{
     body{
         margin: 0;
         background-color:#000;
+        width: 100%;
     }
 
+    .my{
+        justify-content: center;
+        align-items: center;    
+        width: 100%;
+    }
+  
     .my p{
-        padding: 20px;
-        margin-top: 10px;
+         font-size: 14px;  /* Tamanho menor da fonte */
+        line-height: 1.4; /* Espaçamento entre linhas um pouco menor */
+        padding: 15px; 
     }
 
     /* projetos*/
     .porje{
     
+        width: 90%;
+        padding: 20px 10px;
+        margin: 0 auto;
+        height: 20px;
         text-align: center;
-        min-height: 400px;
-        position: relative;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:40px;
-        top: 320px;
-        min-width: 100%;
-        color: #fff;
+        justify-content: center;
+    
         
     }
+
+    .porje h1 {
+        font-size: 24px;       /* Reduz o tamanho da fonte */
+    }
+
     .all-Project {
         display: flex;
         justify-content: space-around;
         gap: 10px; 
         flex-wrap: wrap;
-        margin-top: 190px;
+        margin-top: 170px;
+        width: 100%;
      
     }
     
@@ -221,3 +239,4 @@ body{
     }
     
 }
+
